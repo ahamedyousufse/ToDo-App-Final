@@ -15,6 +15,7 @@ app.use(
     origin: "http://localhost:5173",
   }),
 );
+
 app.use(express.json()); // middleware used to parse JSON bodies
 app.use(rateLimiter);
 

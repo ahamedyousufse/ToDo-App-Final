@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "type": "module",
   "keywords": [],
@@ -18,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^17.4.2",
     "express": "^4.18.2",
+    "hiring-fullstack-todo": "file:..",
     "mongoose": "^9.5.0"
   },
   "devDependencies": {
