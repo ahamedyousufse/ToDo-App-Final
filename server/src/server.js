@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
-console.log(__dirname);
+// console.log(__dirname);
 
 if(process.env.NODE_ENV !== "production"){
   app.use(
